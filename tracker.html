@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TruckTrail - Live Order Tracker</title><link rel="stylesheet" href="css/style.css"></head>
+<body class="tracker"><div class="app">
+<aside class="side"><div class="logo">🚚 Truck<span>Trail</span></div><a class="nav" href="index.html">Home</a><a class="nav" href="map.html">Map</a><a class="nav active" href="tracker.html">Orders</a><a class="nav" href="truck-alert.html">Truck owner</a></aside>
+<main class="main">
+<header class="top"><input class="search" placeholder="Search trucks..."><div class="row"><a href="tracker.html">Orders</a><span>👤 Profile</span></div></header>
+<div class="l2">
+  <section class="card">
+    <h1>Order #TN204</h1>
+    <p class="mt8">Taco Nomad · Pickup in ~7 min</p>
+    <div class="mt">
+      <div class="step done"><div class="dot">✓</div><div><b>Sent</b><br><small>1:02 PM</small></div></div>
+      <div class="step done"><div class="dot">✓</div><div><b>Accepted</b><br><small>1:03 PM</small></div></div>
+      <div class="step cur"><div class="dot"></div><div><b>Preparing</b><br><small>1:06 PM</small></div></div>
+      <div class="step"><div class="dot"></div><div><b>Ready</b></div></div>
+      <div class="step"><div class="dot"></div><div><b>Collected</b></div></div>
+    </div>
+  </section>
+  <aside class="col">
+    <div class="card" style="text-align:center"><div class="qr" style="margin:0 auto 12px"></div><b>Show at the window</b><br><small>Pickup at Taco Nomad, 0.4 km away</small></div>
+    <a class="btn btn-primary" href="collected.html">Mark as collected</a>
+    <div class="btn btn-secondary">Call truck</div>
+    <div class="btn btn-secondary">Cancel</div>
+    <small>Problem? <a href="edge-sold-out.html"><u>Dish sold out</u></a> · <a href="edge-truck-moved.html"><u>Truck moved</u></a> · <a href="edge-not-collected.html"><u>Not collected</u></a></small>
+  </aside>
+</div>
+</main></div></body></html>
